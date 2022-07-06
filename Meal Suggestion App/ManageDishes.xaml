@@ -1,0 +1,13 @@
+﻿<Window x:Class="Meal_Suggestion_App.ManageDishes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meal_Suggestion_App"
+        mc:Ignorable="d"
+        Title="ManageDishes" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="backBtn" Content="Back to Main" HorizontalAlignment="Left" Margin="270,166,0,0" VerticalAlignment="Top" Width="261" Height="73" Click="backBtn_Click"/>
+
+    </Grid>
+</Window>

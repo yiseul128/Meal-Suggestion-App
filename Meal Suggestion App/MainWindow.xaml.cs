@@ -24,5 +24,31 @@ namespace Meal_Suggestion_App
         {
             InitializeComponent();
         }
+
+        private void exitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void manageDishesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ManageDishes manageDishes = new ManageDishes(this);
+            manageDishes.Show();
+            this.Hide();
+        }
+
+        private void singleSuggestionBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SingleSuggestion singleSuggestion = new SingleSuggestion(this);
+            singleSuggestion.Show();
+            this.Hide();
+        }
+
+        private void multipleSuggestionBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MultipleSuggestions multipleSuggestions = new MultipleSuggestions(this);
+            multipleSuggestions.Show();
+            this.Hide();
+        }
     }
 }

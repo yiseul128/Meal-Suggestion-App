@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace Meal_Suggestion_App
+{
+    /// <summary>
+    /// Interaction logic for ManageDishes.xaml
+    /// </summary>
+    public partial class ManageDishes : Window
+    {
+        public MainWindow ParentWindow { get; private set; }
+        public ManageDishes(MainWindow parent)
+        {
+            InitializeComponent();
+            this.ParentWindow = parent;
+        }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ParentWindow.Show();
+            this.Close();
+        }
+    }
+}

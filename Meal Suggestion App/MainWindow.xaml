@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="manageDishesBtn" Content="Manage Dishes" HorizontalAlignment="Left" Margin="223,24,0,0" VerticalAlignment="Top" Width="350" Height="73" Click="manageDishesBtn_Click"/>
+        <Button x:Name="singleSuggestionBtn" Content="Single Meal Suggestion" HorizontalAlignment="Left" Margin="223,119,0,0" VerticalAlignment="Top" Width="350" Height="73" Click="singleSuggestionBtn_Click"/>
+        <Button x:Name="multipleSuggestionBtn" Content="Multiple Meal Plan Suggestions" HorizontalAlignment="Left" Margin="223,212,0,0" VerticalAlignment="Top" Width="350" Height="73" Click="multipleSuggestionBtn_Click"/>
+        <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Left" Margin="223,307,0,0" VerticalAlignment="Top" Width="350" Height="73" Click="exitBtn_Click"/>
+
     </Grid>
 </Window>
