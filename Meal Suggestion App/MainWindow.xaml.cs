@@ -32,22 +32,31 @@ namespace Meal_Suggestion_App
 
         private void manageDishesBtn_Click(object sender, RoutedEventArgs e)
         {
+            //create and show a Manage Dishes window
             ManageDishes manageDishes = new ManageDishes(this);
             manageDishes.Show();
+
+            //hide this Main Window
             this.Hide();
         }
 
         private void singleSuggestionBtn_Click(object sender, RoutedEventArgs e)
         {
+            //create and show a Single Suggestions window
             SingleSuggestion singleSuggestion = new SingleSuggestion(this);
             singleSuggestion.Show();
+
+            //hide this Main Window
             this.Hide();
         }
 
         private void multipleSuggestionBtn_Click(object sender, RoutedEventArgs e)
         {
+            //create and show a Multiple Suggestions window
             MultipleSuggestions multipleSuggestions = new MultipleSuggestions(this);
             multipleSuggestions.Show();
+
+            //hide this Main Window
             this.Hide();
         }
     }

@@ -23,11 +23,14 @@ namespace Meal_Suggestion_App
         public MultipleSuggestions(MainWindow parent)
         {
             InitializeComponent();
+
+            //assign the given argument to ParentWindow
             this.ParentWindow = parent;
         }
 
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
+            //show the ParentWindow and close this window 
             ParentWindow.Show();
             this.Close();
         }

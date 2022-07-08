@@ -19,3 +19,9 @@ C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\Multiple
 C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\MultipleSuggestions.baml
 C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\ManageDishes.g.cs
 C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\ManageDishes.baml
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\bin\Debug\EntityFramework.dll
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\bin\Debug\EntityFramework.SqlServer.dll
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\bin\Debug\EntityFramework.xml
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\bin\Debug\EntityFramework.SqlServer.xml
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\Meal Suggestion App_Content.g.cs
+C:\COLT\Side Projects\Meal Suggestion App\Meal Suggestion App\obj\Debug\Meal Suggestion App.csproj.CopyComplete

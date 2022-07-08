@@ -5,9 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Meal_Suggestion_App"
         mc:Ignorable="d"
-        Title="ManageDishes" Height="450" Width="800">
+        Title="ManageDishes" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Button x:Name="backBtn" Content="Back to Main" HorizontalAlignment="Left" Margin="270,166,0,0" VerticalAlignment="Top" Width="261" Height="73" Click="backBtn_Click"/>
+        <Button x:Name="backBtn" Content="Back to Main" HorizontalAlignment="Left" Margin="26,26,0,0" VerticalAlignment="Top" Width="140" Height="45" Click="backBtn_Click"/>
+        <DataGrid x:Name="dishDataGrid" HorizontalAlignment="Left" Height="365" Margin="393,26,0,0" VerticalAlignment="Top" Width="357" SelectionChanged="dishDataGrid_SelectionChanged"/>
+        <Label Content="Name of the dish:" HorizontalAlignment="Left" Margin="26,100,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="nameTxt" HorizontalAlignment="Left" Height="23" Margin="147,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="195"/>
+        <Label Content="Is it breakfast?" HorizontalAlignment="Left" Margin="26,143,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="yesRbtn" GroupName="breakfast" Content="Yes" IsChecked="True" HorizontalAlignment="Left" Margin="147,149,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="breakfast" Content="No" HorizontalAlignment="Left" Margin="266,149,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="addDishBtn" Content="Add Dish" HorizontalAlignment="Left" Margin="26,186,0,0" VerticalAlignment="Top" Width="316" Height="45" Click="addDishBtn_Click"/>
+        <TextBlock Text="To delete a dish, please click one from the table." HorizontalAlignment="Left" Margin="26,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="316"/>
+        <TextBlock Text="Dish ID to delete:" HorizontalAlignment="Left" Margin="26,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="idToDeleteTxt" Text="" HorizontalAlignment="Left" Margin="133,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="deleteDishBtn" Content="Delete Dish" HorizontalAlignment="Left" Margin="26,346,0,0" VerticalAlignment="Top" Width="316" Height="45" Click="deleteDishBtn_Click"/>
 
     </Grid>
 </Window>
