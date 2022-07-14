@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="SingleSuggestion" Height="450" Width="800">
     <Grid>
-        <Button x:Name="backBtn" Content="Back to Main"  HorizontalAlignment="Left" Margin="241,158,0,0" VerticalAlignment="Top" Width="332" Height="79" Click="backBtn_Click"/>
+        <Button x:Name="backBtn" Content="Back to Main"  HorizontalAlignment="Left" Margin="26,26,0,0" VerticalAlignment="Top" Width="140" Height="45" Click="backBtn_Click"/>
+        <RadioButton GroupName="breakfast" Content="Breakfast" x:Name="breakfastRbtn" IsChecked="True" HorizontalAlignment="Left" Margin="248,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.075,0.533"/>
+        <RadioButton GroupName="breakfast" Content="Lunch or Dinner" HorizontalAlignment="Left" Margin="438,124,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="getSuggestionBtn" Content="Get Suggestion" HorizontalAlignment="Left" Margin="248,165,0,0" VerticalAlignment="Top" Width="294" Height="47" Click="getSuggestionBtn_Click"/>
+        <TextBlock x:Name="suggestionTxt" Text="" TextAlignment="Center" FontWeight="Bold" FontSize="40" HorizontalAlignment="Left" Margin="26,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="745"/>
 
     </Grid>
 </Window>
