@@ -70,6 +70,7 @@
     <Compile Include="ManageDishes.xaml.cs">
       <DependentUpon>ManageDishes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MealPlan.cs" />
     <Compile Include="MealSuggestion.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -91,6 +92,7 @@
     <Compile Include="SingleSuggestion.xaml.cs">
       <DependentUpon>SingleSuggestion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

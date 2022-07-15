@@ -7,7 +7,18 @@
         mc:Ignorable="d"
         Title="MultipleSuggestions" Height="450" Width="800">
     <Grid>
-        <Button x:Name="backBtn" Content="Back to Main" HorizontalAlignment="Left" Margin="249,162,0,0" VerticalAlignment="Top" Width="317" Height="81" Click="backBtn_Click"/>
+        <Button x:Name="backBtn" Content="Back to Main" HorizontalAlignment="Left" Margin="26,26,0,0" VerticalAlignment="Top" Width="140" Height="45" Click="backBtn_Click"/>
+        <DataGrid ItemsSource="{Binding MealPlans}" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="368" Margin="354,26,0,0" VerticalAlignment="Top" Width="417">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Breakfast}" Header="Breakfast" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Lunch}" Header="Lunch"  Width="*"/>
+                <DataGridTextColumn Binding="{Binding Dinner}" Header="Dinner"  Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Slider x:Name="daysSlider" Minimum="1" Maximum="30" IsSnapToTickEnabled="True" TickFrequency="1" HorizontalAlignment="Left" Margin="26,166,0,0" VerticalAlignment="Top" Height="19" Width="306"/>
+        <Button x:Name="getSuggestionBtn" Content="Get Suggestions" HorizontalAlignment="Left" Margin="26,244,0,0" VerticalAlignment="Top" Width="306" Height="53" Click="getSuggestionBtn_Click"/>
+        <TextBlock Text="{Binding ElementName=daysSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="136,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25"/>
+        <TextBlock Text="Day(s)" HorizontalAlignment="Left" Margin="161,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
