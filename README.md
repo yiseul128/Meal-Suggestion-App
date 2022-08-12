@@ -14,7 +14,8 @@ The application will allow users to:
 
 ## How to Use the App
 When you run the app, it shows you three buttons to move to other windows.
-The back button on each window works the same. It leads back to the main window. 
+The Back button on each window works the same. It leads back to the main window. 
+The Exit button on the main window is for terminating the app.
 
 ### ManageDishes Window
 - View: see the list of dishes in the database loaded on the data grid.
