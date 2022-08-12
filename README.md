@@ -34,4 +34,4 @@ Check the list below for possible features and improvements you can make.
 - Adding a feature allowing users to edit dish information
 - Creating a search feature for dish management
 - Adding more suggestion phrases other than "How about \<dish name\>?" and randomize them for display
-- improving the UI components visually (adding colors, styling, organizing differently)
+- Improving the UI components visually (adding colors, styling, organizing differently)
