@@ -36,3 +36,7 @@ Check the list below for possible features and improvements you can make.
 - Creating a search feature for dish management
 - Adding more suggestion phrases other than "How about \<dish name\>?" and randomize them for display
 - Improving the UI components visually (adding colors, styling, organizing differently)
+
+## Tutorial for the App 
+You can find the tutorial for building this app in [this Pressbook](https://ecampusontario.pressbooks.pub/oerlabguidecentennialcollege/part/meal-suggestion-app-tutorial/).
+Note that the book is a work in progress, although the Meal Suggestion App Tutorial part is completed.
